@@ -1,0 +1,25 @@
+{
+  "name": "@riim/babel-plugin-transform-decorators",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/babelPluginTransformDecorators.js",
+  "scripts": {
+    "build": "rm -rf dist && mkdir dist && node_modules/.bin/babel src/babelPluginTransformDecorators.js -o dist/babelPluginTransformDecorators.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Riim/babel-plugin-transform-decorators.git"
+  },
+  "author": "Dmitry Vibe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Riim/babel-plugin-transform-decorators/issues"
+  },
+  "homepage": "https://github.com/Riim/babel-plugin-transform-decorators#readme",
+  "devDependencies": {
+    "@riim/babel-preset-2015": "^1.0.0",
+    "babel-cli": "^6.16.0",
+    "babel-template": "^6.16.0"
+  }
+}
